@@ -1,0 +1,99 @@
+/* Alia Andrigo's CSS file */
+/*
+@font-face {font-family: 'OpenDyslexic-Regular';
+src: url (OpenDyslexic-Regular.otf);
+font-weight: normal;
+font-style: normal; }
+*/
+body {
+font-family: "times new roman", verdana, arial, sans-serif;
+/*font-family: 'OpenDyslexic-Regular',verdana; sans-serif; }*/
+font-size: 12pt;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+
+/*background: white url(images/senvalamap.png) left top fixed;*/
+}
+p{color:blue;}
+p::first-line {color: purple;}
+p::first-letter {color:red;}
+h1 em {color:green;}
+
+
+
+h1, h2, h3 {font-family: calibri, serif;  
+            font-weight: normal;}
+
+h1 {font-size:160%;}
+h2 {font-size:120%;}
+h3 {font-size:100%;}
+p, h1, h2, h3, ol, ul {margin-top:0; 
+                       margin-bottom:1px;}
+
+ol {padding-left: 0;
+    margin-left:300px;}
+
+img {padding:10px; 
+     border:1px solid black; 
+     background-color: white;}
+
+a {color: #8c5900;
+   font-weight: bold;
+   text-decoration: none;
+   border-bottom: 1px solid #898989;
+   padding-bottom: 1px; }
+
+a:visited {color: #4a2885;}
+
+a:hover, a:focus, a:active {background-color: #fff5e8; color: #800080; border-bottom-color: #fdebcf;}
+
+div#wrapper {width: 728px;
+             margin-left:auto;
+             margin-right:auto;
+             margin-top: 12px;
+             margin-bottom: 15px;
+             background-color: #ebf5fc;
+             background-image: url(images/wrap3.png);
+             background-repeat: repeat-y;
+             background-position: left top;
+             background-attachment: scroll;
+             border: 2px dotted black;}
+
+/*header {height: 90px;
+        margin-bottom: 20px;}
+        header h1, header p {text-indent: -999999px;}*/
+/*.home header {background: white url(images/bannerhome.png) no-repeat;}
+.about header{background: white url(images/bannerabout.png) no-repeat;}*/
+
+/*article {float: left;
+         width: 500px;
+         padding-left: 10px;}*/
+/*nav {float: left;
+     width: 200px;
+     padding: 5px;}*/
+
+footer {clear: both;
+        padding: 10px;
+        font-size: 75%;
+        height: 1%;
+        background-color: #aa5e14;
+        color: #ffffff;
+        border-top: 2px dotted #464646;}
+
+nav ul {display: none;}
+         
+nav a:hover {background-color: white;}
+
+footer a:link {color: yellow;}
+footer a:hover, footer a:focus, footer a:active {background-color: transparent;
+                                                 border: none;}
+table {border: 1px solid black;}
+caption {display:none;}
+thead {color: white;
+       background-color: #cccccc;
+       text-align: left;}
+tbody {font-family: georgia, "times new roman", serif;
+       font-size: 90%;}
+   
+   
